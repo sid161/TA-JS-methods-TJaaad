@@ -52,6 +52,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
+[100,200,33,45,65,76,51]
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -60,6 +61,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
+[undefined,undefined,undefined,undefined,undefined,undefined,undefined]
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -68,6 +70,7 @@ function isOdd(num) {
 }
 let oddNumbers = numbers.filter(isOdd);
 ```
+[33,45,65,51]
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -76,6 +79,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
+[]
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -84,6 +88,8 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
+[100,200,33,45,65,76,51]
+
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -92,7 +98,7 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
-
+undefined
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function add(accumulator, currentValue) {
@@ -100,3 +106,4 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
+[100,300,333,378,443,519,570]
