@@ -16,7 +16,7 @@ let words = [
 // - Create a new array that only contains word with atleast one vowel.
 
 // - Find the index of the word "rhythm"
-
+words.findIndex("rhythm");
 // - Create a new array that contians words not starting with vowel.
 
 // - Create a new array that contianse words not ending with vowel
