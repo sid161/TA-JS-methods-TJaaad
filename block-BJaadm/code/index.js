@@ -14,8 +14,9 @@ let persons = [
 ];
 
 // Create an array peopleName and store value of sex key from persons array
-
+ peopelName = []
 // Create an array peopleGrade and store the value of grade key from persons array
+
 
 // Create an array peopleSex and store the value of sex key from persons array
 
@@ -24,8 +25,10 @@ let persons = [
 // Log the length of filtered named of people in peopleName that starts with 'A' and 'C'
 
 // Log all the filtered male ('M') in persons array
+let maleFilter = sex.filter('M');
 
 // Log all the filtered female ('F') in persons array
+let femaleFilter = words.filter('F');
 
 // Log all the filtered female ('F') whose name starts with 'C' or 'J' in persons array
 
