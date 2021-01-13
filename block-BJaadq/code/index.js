@@ -1,8 +1,10 @@
 // NOTE: You can not use reduce methods to solve this exercise
 
 function countAllPeople() {
-  // your code goes here
-}
+  people.reduce((acc,cv) {
+    acc = acc + cv;
+    return acc;
+  } []);
 
 function peopleByHouses() {
   // your code goes here
