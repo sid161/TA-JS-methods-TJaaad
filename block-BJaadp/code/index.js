@@ -17,6 +17,7 @@ let persons = [
 
 // Find the average grade
 
+
 // Find the average grade of male
 
 // Find the average grade of female
@@ -51,6 +52,7 @@ that fruit has appeared in the array. Store it in new variable fruitsObj
 Output: 
 {banana: 2, cherry: 3, orange: 3, apple: 2, fig: 1}
 */
+let fruitsObj 
 
 /* 
 
@@ -70,6 +72,12 @@ const data = [
 ];
 
 // Using reduce flat data array
+let flattened = [[1, 2, 3], [4, 5, 6], [7, 8, 9],[10, 11, 12]].reduce(
+  function(accumulator, currentValue) {
+    return accumulator.concat(currentValue)
+  },
+  []
+)
 
 const dataTwo = [
   [1, 2, 3],
@@ -79,6 +87,7 @@ const dataTwo = [
 ];
 
 // Using reduce flat dataTwo array
+
 
 /*
 
